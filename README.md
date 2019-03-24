@@ -25,3 +25,9 @@ Upon winning the game, the game board will disappear, and instead, you will see 
 ### Other game aspects
 
 The game also provides an option to restart. You can restart mid-game, and you can also restart after winning. Every time you restart the game, the cards on the game board will be shuffled.
+
+### Dependencies
+
+Please note that this game makes use of the Bootstrap Awesome font for the card symbols. More details can be found [here](https://fontawesome.bootstrapcheatsheets.com/).
+
+This game also makes use of Google's Coda font family. More details can be found [here](https://fonts.google.com/specimen/Coda?selection.family=Coda&query=coda).
