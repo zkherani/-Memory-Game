@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Matching Game</title>
+        <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+        <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+        <link rel="stylesheet" href="css/app.css">
+    </head>
+    <body>
+
+        <div class="container">
+            
+            <!-- Shows the title of the game -->
+            <header>
+                <h1>Matching Game</h1>
+            </header>
+            
+            <!-- Shows the stars, number of moves, timer, and restart button -->
+            <section class="score-panel">
+            	<ul class="stars">
+            		<li><i class="fa fa-star"></i></li>
+            		<li><i class="fa fa-star"></i></li>
+            		<li><i class="fa fa-star"></i></li>
+            	</ul>
+
+            	<span class="moves"></span> Moves
+
+                <div class="timer"></div>
+
+                <div class="restart">
+            		<i class="fa fa-repeat"></i>
+            	</div>
+            </section>
+            
+            <!-- Shows the deck with the cards -->
+            <ul class="deck">
+            </ul>
+
+            <!-- Shows the won modal if the game has been won; includes a message, time elapsed, number of moves, stars, and "play again" button -->
+            <div class="won_modal">
+                <div class="won_message">
+                    <h2>Congratulations!</h2>
+                    <p class="won_message_time"></p>
+                    <p class="won_message_stars"></p>
+                </div>
+                <div class="button">
+                    <h2 class="button_text">Play again</h2>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/app.js"></script>
+    </body>
+</html>
